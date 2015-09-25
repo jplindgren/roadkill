@@ -86,3 +86,5 @@ deploytemp/
 src/Roadkill.Web/App_Data/Export/
 *.eml
 .vs/
+
+connectionStrings.config

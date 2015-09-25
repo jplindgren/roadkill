@@ -1,8 +1,9 @@
 using System;
 using System.IO;
-using IisConfiguration;
-using IisConfiguration.Logging;
+//using IisConfiguration;
+//using IisConfiguration.Logging;
 using Microsoft.Web.Administration;
+using Mindscape.LightSpeed.Logging;
 
 namespace Roadkill.Tests
 {
@@ -13,23 +14,23 @@ namespace Roadkill.Tests
 
 		public void Start()
 		{
-			var logger = new ConsoleLogger();
-			var serverConfig = new WebServerConfig(logger);
+            //var logger = new IisConfiguration.Logging.ConsoleLogger();
+            //var serverConfig = new WebServerConfig(logger);
 
 			// Current directory: src\Roadkill.Tests\bin\Debug
 			string webRoot = Environment.CurrentDirectory + @"..\..\..\..\Roadkill.Web";
 			var dirInfo = new DirectoryInfo(webRoot);
 
-			serverConfig
-				.AddAppPool(_siteName, "v4.0", ManagedPipelineMode.Integrated, ProcessModelIdentityType.LocalService)
-				.WithProcessModel(TimeSpan.FromMinutes(60), false)
-				.Commit();
+            //serverConfig
+            //    .AddAppPool(_siteName, "v4.0", ManagedPipelineMode.Integrated, ProcessModelIdentityType.LocalService)
+            //    .WithProcessModel(TimeSpan.FromMinutes(60), false)
+            //    .Commit();
 
-			serverConfig
-				.AddSite(_siteName, _webPort, _webPort)
-				.AddApplication("/", dirInfo.FullName, _siteName)
-				.WithLogging(false)
-				.Commit();
+            //serverConfig
+            //    .AddSite(_siteName, _webPort, _webPort)
+            //    .AddApplication("/", dirInfo.FullName, _siteName)
+            //    .WithLogging(false)
+            //    .Commit();
 		}
 
 		public void Dispose()

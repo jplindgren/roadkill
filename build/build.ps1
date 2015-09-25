@@ -7,4 +7,4 @@ Write-host "Added $runtimeDir to path"
 
 # ---- Build the solution using the Download target
 cd ..
-msbuild roadkill.sln "/p:Configuration=Download;RunOctoPack=true"
+msbuild roadkill.sln "/p:Configuration=Debug;RunOctoPack=true"
