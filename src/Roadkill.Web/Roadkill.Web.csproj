@@ -379,6 +379,7 @@
     <Content Include="Assets\Scripts\jquery\jquery-ui-1.10.3.custom.js" />
     <Content Include="Assets\Scripts\jquery\jquery.validate.js" />
     <Content Include="Assets\Scripts\shared\tagmanager.js" />
+    <Content Include="Themes\Modulo\Theme.cshtml" />
     <TypeScriptCompile Include="Assets\Scripts\roadkill\dialogs.ts" />
     <Content Include="Assets\Scripts\jquery\jquery.fileupload.js" />
     <Content Include="Assets\Scripts\jquery\jquery.iframe-transport.js" />
@@ -536,6 +537,8 @@
     <Content Include="Plugins\_ViewStart.cshtml" />
     <Content Include="Assets\Scripts\shared\toastr.js" />
     <Content Include="Themes\BlackBar\Theme.print.css" />
+    <Content Include="Themes\Modulo\Theme.css" />
+    <Content Include="Themes\Modulo\Theme.print.css" />
     <Content Include="Themes\Responsive\Theme.css" />
     <Content Include="Themes\Responsive\Theme.print.css" />
     <Content Include="Themes\Mediawiki\border.png" />

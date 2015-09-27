@@ -272,7 +272,7 @@
     <value>Registro completado.</value>
   </data>
   <data name="Signup_Complete_Label" xml:space="preserve">
-    <value>Obrigado, um email foi enviado para {0} com detalhes sobre como concluir a inscrição.</value>
+    <value>Um email foi enviado para {0} com detalhes sobre como concluir a inscrição.</value>
   </data>
   <data name="Signup_Complete_NoEmail" xml:space="preserve">
     <value>Não recebi seu e-mail?</value>
@@ -288,7 +288,7 @@
     <value>Ocorreu um erro com o registro.</value>
   </data>
   <data name="Signup_Error_Recaptcha" xml:space="preserve">
-    <value>As duas palavras para a caixa de anti-spam estão incorretos</value>
+    <value>Alguma palavra para a caixa de anti-spam está incorreta</value>
   </data>
   <data name="Activate_Title" xml:space="preserve">
     <value>Ativação de Conta</value>
@@ -297,16 +297,16 @@
     <value>Ativação bem sucedida</value>
   </data>
   <data name="Activate_Error_Title" xml:space="preserve">
-    <value>Ativação não foi bem sucedida</value>
+    <value>Houve um erro na ativação</value>
   </data>
   <data name="Activate_Label" xml:space="preserve">
     <value>Sua conta foi ativada com sucesso.</value>
   </data>
   <data name="Activate_Link" xml:space="preserve">
-    <value>Clique aqui para acessar</value>
+    <value>Clique aqui para entrar</value>
   </data>
   <data name="Activate_Error" xml:space="preserve">
-    <value>Houve um problema na ativação de sua conta. Ele já pode ter sido ativado.</value>
+    <value>Houve um problema na ativação de sua conta. Ela já pode ter sido ativada.</value>
   </data>
   <data name="ResetPassword_Title" xml:space="preserve">
     <value>Redefinir Senha.</value>
@@ -337,7 +337,7 @@
     <value>Sua solicitação de redefinição de senha foi enviada.</value>
   </data>
   <data name="ResetPassword_EmailSent_Label" xml:space="preserve">
-    <value>Obrigado, um email foi enviado para {0} com detalhes sobre como redefinir sua senha.</value>
+    <value>Um email foi enviado para {0} com detalhes sobre como redefinir sua senha.</value>
   </data>
   <data name="ResetPassword_Error" xml:space="preserve">
     <value>As senhas não são iguais, ou são muito curtos</value>
@@ -361,7 +361,7 @@
     <value>Você não definiu uma página principal</value>
   </data>
   <data name="NoMainPage_Label" xml:space="preserve">
-    <value>Para definir uma página princiapl, crie uma página e atribua a tag 'homepage'.</value>
+    <value>Para definir uma página principal, crie uma página e atribua a tag 'homepage'.</value>
   </data>
   <data name="Search_PlaceHolder" xml:space="preserve">
     <value>Digite o texto a ser pesquisado</value>
@@ -626,7 +626,7 @@
     <value>A chave pública para o Recaptcha, que é fornecida quando você se inscreve com recaptcha.</value>
   </data>
   <data name="SiteSettings_Configuration_AD_Connection_Help" xml:space="preserve">
-    <value>LDAP connection string para o Active Directory. Deve estar no formato LDAP://mydc01.empresa.interno (LDAP deve ser maiúscul).</value>
+    <value>LDAP connection string para o Active Directory. Deve estar no formato LDAP://mydc01.empresa.interno (LDAP deve ser maiúscula).</value>
   </data>
   <data name="SiteSettings_Configuration_AD_Username_Help" xml:space="preserve">
     <value>O nome de usuário para autenticar no Active Directory com. Deixe em branco se o pool de aplicativo está sendo executado sob um usuário com essa permissão.</value>
@@ -1013,7 +1013,7 @@
     <value>As configurações foram atualizadas com sucesso.</value>
   </data>
   <data name="Recaptcha_Prompt" xml:space="preserve">
-    <value>Como uma medida anti-spam, por favor digite as duas palavras abaixo</value>
+    <value>Como uma medida anti-spam, por favor digite as palavras abaixo</value>
   </data>
   <data name="Button_Close" xml:space="preserve">
     <value>Fechar</value>
