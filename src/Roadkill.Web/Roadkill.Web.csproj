@@ -379,7 +379,37 @@
     <Content Include="Assets\Scripts\jquery\jquery-ui-1.10.3.custom.js" />
     <Content Include="Assets\Scripts\jquery\jquery.validate.js" />
     <Content Include="Assets\Scripts\shared\tagmanager.js" />
-    <Content Include="Themes\Modulo\Theme.cshtml" />
+    <Content Include="Themes\Modulo\scss\fonts\fontawesome-webfont.svg" />
+    <Content Include="Themes\Modulo\Theme.cshtml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Themes\Modulo\scss\Theme.scss">
+      <Compile>True</Compile>
+      <Minify>True</Minify>
+      <OutputFolder>..</OutputFolder>
+      <IgnoreWarnings>True</IgnoreWarnings>
+      <IgnoreErrors>True</IgnoreErrors>
+      <CompileStyle>Nested</CompileStyle>
+      <DebugInfo>False</DebugInfo>
+    </Content>
+    <Content Include="Themes\Modulo\scss\variables\_variables.scss" />
+    <Content Include="Themes\Modulo\scss\components\_devices.scss">
+      <Compile>False</Compile>
+      <Minify>True</Minify>
+      <IgnoreWarnings>True</IgnoreWarnings>
+      <IgnoreErrors>True</IgnoreErrors>
+      <CompileStyle>Nested</CompileStyle>
+      <DebugInfo>False</DebugInfo>
+    </Content>
+    <Content Include="Themes\Modulo\scss\global\_content.scss" />
+    <Content Include="Themes\Modulo\scss\global\_typography.scss" />
+    <Content Include="Themes\Modulo\scss\components\_navbar.scss" />
+    <Content Include="Themes\Modulo\scss\components\_font-awesome.scss" />
+    <Content Include="Themes\Modulo\scss\fonts\fontawesome-webfont.eot" />
+    <Content Include="Themes\Modulo\scss\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Themes\Modulo\scss\fonts\fontawesome-webfont.woff" />
+    <Content Include="Themes\Modulo\scss\fonts\fontawesome-webfont.woff2" />
+    <Content Include="Themes\Modulo\scss\fonts\FontAwesome.otf" />
     <TypeScriptCompile Include="Assets\Scripts\roadkill\dialogs.ts" />
     <Content Include="Assets\Scripts\jquery\jquery.fileupload.js" />
     <Content Include="Assets\Scripts\jquery\jquery.iframe-transport.js" />
@@ -537,8 +567,12 @@
     <Content Include="Plugins\_ViewStart.cshtml" />
     <Content Include="Assets\Scripts\shared\toastr.js" />
     <Content Include="Themes\BlackBar\Theme.print.css" />
-    <Content Include="Themes\Modulo\Theme.css" />
-    <Content Include="Themes\Modulo\Theme.print.css" />
+    <Content Include="Themes\Modulo\Theme.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Themes\Modulo\Theme.print.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Themes\Responsive\Theme.css" />
     <Content Include="Themes\Responsive\Theme.print.css" />
     <Content Include="Themes\Mediawiki\border.png" />
