@@ -35,12 +35,12 @@ namespace Roadkill.Core.Extensions
 			ControllerBase controller = helper.ViewContext.Controller as ControllerBase;
 			if (controller != null && controller.Context.IsLoggedIn)
 			{
-				string text = string.Format("{0} {1}", SiteStrings.Shared_LoggedInAs, controller.Context.CurrentUsername);
+				string text = string.Format("{0}", controller.Context.CurrentUsername);
 				return helper.ActionLink(text, "Profile", "User");
 			}
 			else
 			{
-				return MvcHtmlString.Create(SiteStrings.Shared_NotLoggedIn);
+				return null;
 			}
 		}
 

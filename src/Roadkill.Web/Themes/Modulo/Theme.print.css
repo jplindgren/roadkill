@@ -1,8 +1,7 @@
-﻿#viewhistory	{ display: none !important; }
-#toolbar		{ display: none !important; }
-#headfade		{ display: none !important; }
-#logo			{ display: none !important; }
-#panel			{ display: none !important; }
-#leftmenu		{ display: none !important; }
-#footer			{ display: none !important; }
-#container		{ border: 0px !important; margin-left: 0px !important; }
+﻿#header-wrapper		{ display: none !important; }
+.searchbar			{ display: none !important; }
+.modal				{ display: none !important; }
+#top-link			{ display: none !important; }
+#viewhistory		{ display: none !important; }
+#powered-by			{ display: none !important; }
+#container			{ border: 0px !important; margin-left: 0px !important; }

@@ -1,0 +1,20 @@
+// Responsive header
+@media screen and (min-width:720px) {
+	#bootstrap-nav-menu {
+        float: left;
+	}
+	#search {
+        float:left;
+        margin-top: 10px;
+        padding-left: 150px;
+	}
+}
+@media screen and (max-width:720px) {
+	#search-mobile {
+        margin: 15px;
+        padding-left:10px;
+	}
+	#toolbar {
+        display:none;
+	}
+}
